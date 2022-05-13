@@ -51,4 +51,6 @@ bash structure.sh
 bash setConfig.sh
 
 bash run.sh
+
+# 使用`account create <name> [uid]`命令创建游戏账号
 ```
