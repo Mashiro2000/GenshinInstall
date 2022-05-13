@@ -52,8 +52,12 @@ bash setConfig.sh
 
 bash run.sh
 
-# 使用`account create <name> [uid]`命令创建游戏账号
+
 ```
+
+### 创建账号
+
+![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/image/createAccount.png)
 
 
 ## 客户端部署
@@ -119,3 +123,9 @@ class Handlers
 > MongoDB > Grasscutter > Fiddler > 启动器
 
 #### 游戏截图
+
+![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/image/7.png)
+
+![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/image/8.png)
+
+![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/image/9.png)
