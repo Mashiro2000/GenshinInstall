@@ -106,7 +106,7 @@ class Handlers
 > 换区工具[Snap Genshin](https://www.snapgenshin.com/)，按照教程自行切换
 
 ####  游戏启动器
-> [GrassClipper](https://github.com/Grasscutters/GrassClipper/releases/tag/v0.9.9)
+> [GrassClipper启动器](https://github.com/Grasscutters/GrassClipper/releases/tag/v0.9.9)
 > 选择启动官方服务器
 
 ![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/image/5.png)
@@ -114,3 +114,8 @@ class Handlers
 > 如遇到HTTP认证问题，如下图，选择`yes`
 
 ![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/image/6.png)
+
+#### 启动顺序
+> MongoDB > Grasscutter > Fiddler > 启动器
+
+#### 游戏截图
