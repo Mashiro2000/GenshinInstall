@@ -54,3 +54,54 @@ bash run.sh
 
 # 使用`account create <name> [uid]`命令创建游戏账号
 ```
+
+
+## 客户端部署
+
+### 下载Fiddle代理转发工具
+- [Download](https://www.telerik.com/download/fiddler)
+
+#### 配置工具
+##### 点击option
+
+> 位置如图
+
+##### 点击https
+
+>配置如下
+
+##### 点击connections
+
+> 端口号应配置除8888外的任一端口，端口范围0-65535
+
+##### 配置代理转发脚本
+
+> 点击Rulers -> Customize Rulers，配置转发脚本
+>
+> 脚本如下，其中 yourIP，应换成您的服务器外网IP
+
+```
+/* Original script by NicknameGG, modified for Grasscutter by contributors. */
+import System;
+import System.Windows.Forms;
+import Fiddler;
+import System.Text.RegularExpressions;
+
+class Handlers
+{
+    static function OnBeforeRequest(oS: Session) {
+        if(oS.host.EndsWith(".yuanshen.com") || oS.host.EndsWith(".hoyoverse.com") || oS.host.EndsWith(".mihoyo.com")) {
+            oS.host = "yourIP"; // This can also be replaced with another IP address.
+        }
+    }
+};
+```
+
+#### 下载国际服或换区工具
+> 国际服地址，自行谷歌
+> 
+> 换区工具[Snap Genshin](https://www.snapgenshin.com/)，按照教程自行切换
+
+####  游戏启动器
+> [GrassClipper](https://github.com/Grasscutters/GrassClipper/releases/tag/v0.9.9)
+> 根据提示自行启动，选择
