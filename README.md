@@ -107,6 +107,7 @@ class Handlers
 
 #### 下载国际服或换区工具
 > 国际服地址，自行谷歌
+> 
 > 换区工具[Snap Genshin](https://www.snapgenshin.com/)，按照教程自行切换
 
 ####  游戏启动器
