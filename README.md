@@ -63,23 +63,24 @@ bash run.sh
 
 #### 配置工具
 ##### 点击option
-
 > 位置如图
+![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/images/1.png)
 
 ##### 点击https
-
 >配置如下
+![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/images/2.png)
 
 ##### 点击connections
 
 > 端口号应配置除8888外的任一端口，端口范围0-65535
+![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/images/3.png)
 
 ##### 配置代理转发脚本
 
 > 点击Rulers -> Customize Rulers，配置转发脚本
->
-> 脚本如下，其中 yourIP，应换成您的服务器外网IP
+![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/images/4.png)
 
+> 脚本如下，其中 yourIP，应换成您的服务器外网IP
 ```
 /* Original script by NicknameGG, modified for Grasscutter by contributors. */
 import System;
@@ -104,4 +105,9 @@ class Handlers
 
 ####  游戏启动器
 > [GrassClipper](https://github.com/Grasscutters/GrassClipper/releases/tag/v0.9.9)
-> 根据提示自行启动，选择
+> 根据提示自行启动
+![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/images/5.png)
+
+##### 其它
+> 如跳出http认证问题，选择`yes`
+![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/images/6.png)
