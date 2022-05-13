@@ -1,5 +1,6 @@
 # <p align="center">GenshinInstall</p>
 > <p align="center">某动漫游戏一键部署脚本</p>
+> 
 > 某动漫游戏仓库地址[点我](https://github.com/Grasscutters/Grasscutte)
 
 
