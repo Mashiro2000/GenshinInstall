@@ -71,16 +71,15 @@ bash run.sh
 ![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/images/2.png)
 
 ##### 点击connections
-
 > 端口号应配置除8888外的任一端口，端口范围0-65535
 ![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/images/3.png)
 
 ##### 配置代理转发脚本
-
 > 点击Rulers -> Customize Rulers，配置转发脚本
 ![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/images/4.png)
 
 > 脚本如下，其中 yourIP，应换成您的服务器外网IP
+
 ```
 /* Original script by NicknameGG, modified for Grasscutter by contributors. */
 import System;
@@ -100,7 +99,6 @@ class Handlers
 
 #### 下载国际服或换区工具
 > 国际服地址，自行谷歌
-> 
 > 换区工具[Snap Genshin](https://www.snapgenshin.com/)，按照教程自行切换
 
 ####  游戏启动器
@@ -108,6 +106,5 @@ class Handlers
 > 根据提示自行启动
 ![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/images/5.png)
 
-##### 其它
-> 如跳出http认证问题，选择`yes`
+> 如遇到HTTP认证问题，如下图，选择`yes`
 ![](https://cdn.jsdelivr.net/gh/Mashiro2000/GenshinInstall@main/images/6.png)
