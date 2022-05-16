@@ -76,7 +76,7 @@ setEnv(){
         # 配置CLASSPATH环境变量
         jdkClsPathEnvIndex=$(grep -En "^export CLASSPATH.*" /etc/profile | awk -F: '{print $1}')
         if [ ${jdkClsPathEnvIndex} ];then
-                sed -iE '$jdkClsPathEnvIndex s%.*CLASSPATH.*%export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.ja%g' /etc/profile
+                sed -iE '$jdkClsPathEnvIndex s%.*CLASSPATH.*%export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar%g' /etc/profile
         else
                 sed -i '$a export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar' /etc/profile
         fi
